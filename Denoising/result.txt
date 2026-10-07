@@ -1,0 +1,23 @@
+=== Résultats sur le jeu de test (bruit gaussienm MSE) ===
+Modèle               MSE   PSNR (dB)      SSIM
+FCNN             0.00242       26.66    0.9475
+AutoEncoder      0.00484       23.89    0.9364
+UNet             0.00050       33.22    0.9938
+
+=== Résultats sur le jeu de test (bruit poivre_et_sel MSE) ===
+Modèle               MSE   PSNR (dB)      SSIM
+FCNN             0.00312       25.47    0.9413
+AutoEncoder      0.00559       23.19    0.9264
+UNet             0.00003       46.53    0.9997
+
+=== Résultats sur le jeu de test (bruit gaussien SSIM) ===
+Modèle               MSE   PSNR (dB)      SSIM
+FCNN             0.13263        8.85    0.4559
+AutoEncoder      0.13359        8.83    0.4584
+UNet             0.00051       33.14    0.9939
+
+=== Résultats sur le jeu de test (bruit poivre_et_sel SSIM) ===
+Modèle               MSE   PSNR (dB)      SSIM
+FCNN             0.12901        8.99    0.4669
+AutoEncoder      0.13594        8.75    0.4564
+UNet             0.00003       46.61    0.9998
